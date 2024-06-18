@@ -1,0 +1,193 @@
+.bodyc{
+    background-image: url('2.png');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+/***** Navigation *****/  
+
+.navbar{
+    background-color: transparent;
+}
+.navbar-logo{
+    height: 60px;
+    width: 80px;
+}
+.nav-item{
+margin: 5px;
+}
+
+.navbar-toggler{
+    background-color:transparent;
+    
+}
+
+.navbar .container{
+    background-color: transparent;
+    padding: 1%;
+}
+
+.nav-link{
+    color: orange;
+    font-weight: bold;
+    background-color: rgb(47, 16, 0);
+    border-radius: 10px; height: 50px; font-size: larger;
+}
+
+.nav-link2{
+    border-radius: 25px;
+    border-color: orange;
+    color: orange;
+    font-weight: bold;
+    background-color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 2%;
+    font-size: large;
+}
+
+/***** End Navigation *****/
+
+/***** Container *****/
+
+.container{
+    background-color:white;
+    border-radius: 5%;
+    box-shadow: 5%;
+}
+
+.container-con{
+    text-align: center;
+}
+
+.container-con1{
+        margin-top: 30px;
+}
+
+/***** End Container *****/
+
+.h1{
+    margin-top: 2%;
+    margin-bottom: 5%;
+    color: orange;
+    text-align: center;
+    font-weight: bold;
+}
+
+.logogo{
+    color: rgb(77, 33, 0);
+    font-weight: bold;
+}
+
+.picc{
+    margin-top: 5%;
+}
+
+.vid{
+    align-items: center;
+}
+
+.row{
+    margin:5px;
+}
+
+.nav-link{
+    float: left;
+}
+
+.pics{
+    height: 250px;
+    width: 350px;
+}
+
+
+.submit1{
+    color: orange;
+    font-weight: bolder;
+    justify-content: center;
+    border-radius: 10px; width: 100px; border: 2px solid orange;
+    text-decoration: none;
+    padding: 5;
+    background-color: white;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    font-size: large;
+}
+
+.header{
+    padding: 3;
+}
+
+.pp{
+    text-align: justify;
+}
+.pics{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer{
+    padding: 10px;
+    margin-top: 5%;
+    background-color: rgb(47, 16, 0);
+    color: white;
+    text-align: center;
+
+}
+
+.desc{
+    text-align: justify;
+}
+
+/***** media query for mobile view *****/  
+@media only screen and (max-width: 450px) {
+    .navbar{
+        color: light;
+        padding: 5;
+        margin-bottom: 0;
+        size: 20px;
+    }
+
+    .ytvid {
+        width: 300px;
+        height: 150px;
+    }
+    .pics{
+        width:300px;
+        height: 150px;
+        align-items: center;
+    }
+
+    .picc{
+    display: none;
+}
+.container-con1 {
+    display: none;
+}   
+}
+/***** End Section *****/
+
+/***** media query for tablet view *****/  
+@media only screen and (max-width: 800px) {
+    .ytvid {
+        width: 350px;
+        height: 200px;
+    }
+    .pics{
+        width:300px;
+        height: 150px;
+    }
+    .picc{
+        display: none;
+    }
+    .donate{
+        display: none;
+    }
+}
+ /***** End Section *****/
+ 
